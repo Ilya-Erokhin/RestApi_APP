@@ -8,7 +8,6 @@ class StoreTest(BaseTest):
     def test_create_store_items_empty(self):
         store = StoreModel('test')
 
-# Проверить что items на данный момент это пустой список, если же нет: Выводи сообщение об ошибке
         self.assertEqual(store.items.all(), [],
                          "The store's items length was not 0 even though no item were added.")
 

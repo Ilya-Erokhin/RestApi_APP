@@ -1,0 +1,8 @@
+Flask
+Flask-RESTful
+Flask-JWT
+Flask-SQLAlchemy
+Waitress
+psycopg2
+python-jose[cryptography]
+pyjwt
